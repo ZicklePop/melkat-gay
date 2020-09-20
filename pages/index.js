@@ -1,13 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout'
-import ListLink from '../components/list-link'
-
-const colors = {
-  gween: '#65A300',
-  mel: '#0096DB',
-  pweach: '#FF5757',
-  pwink: '#FF52A3'
-}
 
 const cx = {
   main: 'vh-100 dt w-100',
@@ -23,8 +15,7 @@ const cx = {
 const Index = () => (
   <Layout className={cx.main}>
     <div className={cx.container}>
-      <article className={cx.article}>
-      </article>
+      <article className={cx.article} />
     </div>
     <style global jsx>
       {`
