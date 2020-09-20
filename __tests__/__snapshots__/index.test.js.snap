@@ -5,11 +5,50 @@ exports[`page - index should render 1`] = `
   className="jsx-2152329932  vh-100 dt w-100"
 >
   <div
-    className="jsx-4168855969 dtc v-mid tc"
+    className="dtc v-mid tc"
   >
-    <article
-      className="jsx-4168855969 measure-narrow center sans-serif f3 fw2 ph2"
-    />
+    <div>
+      <div
+        style={
+          Object {
+            "backgroundColor": "#5bcefa",
+            "height": "NaNpx",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "#f5a9b8",
+            "height": "NaNpx",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "height": "NaNpx",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "#f5a9b8",
+            "height": "NaNpx",
+          }
+        }
+      />
+      <div
+        style={
+          Object {
+            "backgroundColor": "#5bcefa",
+            "height": "NaNpx",
+          }
+        }
+      />
+    </div>
   </div>
 </main>
 `;

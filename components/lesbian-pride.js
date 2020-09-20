@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Flag from 'flag'
+import Flag from './flag'
 
 const COLORS = [
   '#d52d00',
