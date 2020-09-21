@@ -13,16 +13,18 @@ const COLORS = [
   '#750787'
 ]
 
-const LGBTQIAPride = ({ height }) => (
-  <Flag colors={COLORS} height={height} />
+const LGBTQIAPride = ({ height, onFinish }) => (
+  <Flag colors={COLORS} height={height} onFinish={onFinish} />
 )
 
 LGBTQIAPride.propTypes = {
-  height: PropTypes.number
+  height: PropTypes.number,
+  onFinish: PropTypes.func,
 }
 
 LGBTQIAPride.defaultProp = {
-  height: 0
+  height: 0,
+  onFinish: () => {}
 }
 
 export default LGBTQIAPride

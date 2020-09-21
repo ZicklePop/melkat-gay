@@ -2,49 +2,54 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-2152329932  vh-100 dt w-100"
+  className="jsx-2118832194  vh-100 dt w-100"
 >
   <div
     className="dtc v-mid tc"
   >
     <div>
       <div
+        className="jsx-226047504 stripe"
         style={
           Object {
             "backgroundColor": "#5bcefa",
-            "height": "NaNpx",
+            "height": "0px",
           }
         }
       />
       <div
+        className="jsx-1108539953 stripe"
         style={
           Object {
             "backgroundColor": "#f5a9b8",
-            "height": "NaNpx",
+            "height": "0px",
           }
         }
       />
       <div
+        className="jsx-2154331730 stripe"
         style={
           Object {
             "backgroundColor": "#ffffff",
-            "height": "NaNpx",
+            "height": "0px",
           }
         }
       />
       <div
+        className="jsx-3036824179 stripe"
         style={
           Object {
             "backgroundColor": "#f5a9b8",
-            "height": "NaNpx",
+            "height": "0px",
           }
         }
       />
       <div
+        className="jsx-634815636 stripe"
         style={
           Object {
             "backgroundColor": "#5bcefa",
-            "height": "NaNpx",
+            "height": "0px",
           }
         }
       />

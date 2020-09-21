@@ -10,16 +10,18 @@ const COLORS = [
   '#5bcefa'
 ]
 
-const TransPride = ({ height }) => (
-  <Flag colors={COLORS} height={height} />
+const TransPride = ({ height, onFinish }) => (
+  <Flag colors={COLORS} height={height} onFinish={onFinish} />
 )
 
 TransPride.propTypes = {
-  height: PropTypes.number
+  height: PropTypes.number,
+  onFinish: PropTypes.func
 }
 
 TransPride.defaultProp = {
-  height: 0
+  height: 0,
+  onFinish: () => {}
 }
 
 export default TransPride
