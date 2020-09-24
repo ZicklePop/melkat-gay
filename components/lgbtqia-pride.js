@@ -18,7 +18,7 @@ const LGBTQIAPride = ({ height, onFinish }) => (
 
 LGBTQIAPride.propTypes = {
   height: PropTypes.number,
-  onFinish: PropTypes.func,
+  onFinish: PropTypes.func
 }
 
 LGBTQIAPride.defaultProp = {
