@@ -9,16 +9,18 @@ const COLORS = [
   '#a30262'
 ]
 
-const LesbianPride = ({ height, onFinish }) => (
-  <Flag colors={COLORS} height={height} onFinish={onFinish} />
+const LesbianPride = ({ animate, height, onFinish }) => (
+  <Flag animate={animate} colors={COLORS} height={height} onFinish={onFinish} />
 )
 
 LesbianPride.propTypes = {
+  animate: PropTypes.bool,
   height: PropTypes.number,
   onFinish: PropTypes.func
 }
 
 LesbianPride.defaultProp = {
+  animate: false,
   height: 0,
   onFinish: () => {}
 }

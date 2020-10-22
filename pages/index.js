@@ -7,8 +7,9 @@ import get from 'lodash/get'
 import useWindowSize from '../hooks/use-window-size'
 
 const cx = {
-  main: 'vh-100 dt w-100',
-  container: 'dtc v-mid tc'
+  main: 'relative',
+  container: 'db',
+  layer: 'absolute absolute--fill'
 }
 
 const FLAGS = [
@@ -30,13 +31,20 @@ const Index = () => {
     }
   }
   const CurrentFlag = FLAGS[flagIndex]
+  const PreviousFlag = flagIndex === 0 ? FLAGS[flagCount - 1] : FLAGS[flagIndex - 1]
   return (
     <Layout className={cx.main}>
       <div className={cx.container}>
-        <CurrentFlag
-          height={height}
-          onFinish={nextFlag}
-        />
+        <div className={cx.layer}>
+          <PreviousFlag height={height} />
+        </div>
+        <div className={cx.layer}>
+          <CurrentFlag
+            animate
+            height={height}
+            onFinish={nextFlag}
+          />
+        </div>
       </div>
     </Layout>
   )

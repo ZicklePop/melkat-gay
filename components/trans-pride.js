@@ -9,16 +9,18 @@ const COLORS = [
   '#5bcefa'
 ]
 
-const TransPride = ({ height, onFinish }) => (
-  <Flag colors={COLORS} height={height} onFinish={onFinish} />
+const TransPride = ({ animate, height, onFinish }) => (
+  <Flag animate={animate} colors={COLORS} height={height} onFinish={onFinish} />
 )
 
 TransPride.propTypes = {
+  animate: PropTypes.bool,
   height: PropTypes.number,
   onFinish: PropTypes.func
 }
 
 TransPride.defaultProp = {
+  animate: false,
   height: 0,
   onFinish: () => {}
 }

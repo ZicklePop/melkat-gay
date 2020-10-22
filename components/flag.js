@@ -6,7 +6,7 @@ import get from 'lodash/get'
 
 const isBrowser = typeof window !== 'undefined'
 
-const Flag = ({ colors, height, onFinish }) => {
+const Flag = ({ animate, colors, height, onFinish }) => {
   const flagEl = useRef(null)
   const finishes = useRef(0)
   const stripes = get(colors, 'length', 0)
@@ -36,6 +36,7 @@ const Flag = ({ colors, height, onFinish }) => {
     <div ref={flagEl}>
       {map(colors, (el, i) => (
         <Stripe
+          animate={animate}
           backgroundColor={el}
           height={height / stripes}
           index={i}
@@ -48,12 +49,14 @@ const Flag = ({ colors, height, onFinish }) => {
 }
 
 Flag.propTypes = {
+  animate: PropTypes.bool,
   colors: PropTypes.arrayOf(PropTypes.string),
   height: PropTypes.number,
   onFinish: PropTypes.func
 }
 
 Flag.defaultProps = {
+  animate: false,
   colors: [],
   height: 0,
   onFinish: () => {}

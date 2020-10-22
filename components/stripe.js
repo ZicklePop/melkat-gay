@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 
-const Stripe = ({ backgroundColor, height, index }) => (
+const Stripe = ({ animate, backgroundColor, height, index }) => (
   <div
-    className='stripe'
+    className={`${animate ? 'stripe' : ''}`}
     style={{
       backgroundColor,
       height: `${height}px`
@@ -27,12 +27,14 @@ const Stripe = ({ backgroundColor, height, index }) => (
 )
 
 Stripe.propTypes = {
+  animate: PropTypes.bool,
   backgroundColor: PropTypes.string,
   height: PropTypes.number,
   index: PropTypes.number
 }
 
 Stripe.defaultProps = {
+  animate: false,
   backgroundColor: '',
   height: 0,
   index: 0

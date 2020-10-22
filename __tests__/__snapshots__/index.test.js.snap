@@ -2,57 +2,139 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-2118832194  vh-100 dt w-100"
+  className="jsx-2118832194  relative"
 >
   <div
-    className="dtc v-mid tc"
+    className="db"
   >
-    <div>
-      <div
-        className="jsx-226047504 stripe"
-        style={
-          Object {
-            "backgroundColor": "#5bcefa",
-            "height": "0px",
+    <div
+      className="absolute absolute--fill"
+    >
+      <div>
+        <div
+          className="jsx-226047504 "
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": "0px",
+            }
           }
-        }
-      />
-      <div
-        className="jsx-1108539953 stripe"
-        style={
-          Object {
-            "backgroundColor": "#f5a9b8",
-            "height": "0px",
+        />
+        <div
+          className="jsx-1108539953 "
+          style={
+            Object {
+              "backgroundColor": "#784f17",
+              "height": "0px",
+            }
           }
-        }
-      />
-      <div
-        className="jsx-2154331730 stripe"
-        style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": "0px",
+        />
+        <div
+          className="jsx-2154331730 "
+          style={
+            Object {
+              "backgroundColor": "#e40303",
+              "height": "0px",
+            }
           }
-        }
-      />
-      <div
-        className="jsx-3036824179 stripe"
-        style={
-          Object {
-            "backgroundColor": "#f5a9b8",
-            "height": "0px",
+        />
+        <div
+          className="jsx-3036824179 "
+          style={
+            Object {
+              "backgroundColor": "#ff8c00",
+              "height": "0px",
+            }
           }
-        }
-      />
-      <div
-        className="jsx-634815636 stripe"
-        style={
-          Object {
-            "backgroundColor": "#5bcefa",
-            "height": "0px",
+        />
+        <div
+          className="jsx-634815636 "
+          style={
+            Object {
+              "backgroundColor": "#ffed00",
+              "height": "0px",
+            }
           }
-        }
-      />
+        />
+        <div
+          className="jsx-1517308085 "
+          style={
+            Object {
+              "backgroundColor": "#008026",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-2563099862 "
+          style={
+            Object {
+              "backgroundColor": "#004dff",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-3445592311 "
+          style={
+            Object {
+              "backgroundColor": "#750787",
+              "height": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="absolute absolute--fill"
+    >
+      <div>
+        <div
+          className="jsx-226047504 stripe"
+          style={
+            Object {
+              "backgroundColor": "#5bcefa",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-1108539953 stripe"
+          style={
+            Object {
+              "backgroundColor": "#f5a9b8",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-2154331730 stripe"
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-3036824179 stripe"
+          style={
+            Object {
+              "backgroundColor": "#f5a9b8",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-634815636 stripe"
+          style={
+            Object {
+              "backgroundColor": "#5bcefa",
+              "height": "0px",
+            }
+          }
+        />
+      </div>
     </div>
   </div>
 </main>
