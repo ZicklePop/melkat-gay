@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Layout from '../components/layout'
 import TransPride from '../components/trans-pride'
+import PanPride from '../components/pan-pride'
 import LGBTQIAPride from '../components/lgbtqia-pride'
 import LesbianPride from '../components/lesbian-pride'
 import get from 'lodash/get'
@@ -14,6 +15,7 @@ const cx = {
 
 const FLAGS = [
   TransPride,
+  PanPride,
   LesbianPride,
   LGBTQIAPride
 ]
