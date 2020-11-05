@@ -39,8 +39,8 @@ export const lgbtqia = [
 
 export default [
   trans,
-  lesbian,
   pan,
+  lesbian,
   nonbinary,
   lgbtqia
 ]
