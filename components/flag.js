@@ -41,7 +41,7 @@ const Flag = ({ animate, colors, height, onFinish }) => {
           height={height / stripes}
           index={i}
           stripes={stripes}
-          key={`${i}${el}`}
+          key={`${colors.join('')}-${i}`}
         />
       ))}
     </div>

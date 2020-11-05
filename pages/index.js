@@ -1,11 +1,6 @@
-import { useState } from 'react'
+import Flag from '../components/flag'
 import Layout from '../components/layout'
-import TransPride from '../components/trans-pride'
-import PanPride from '../components/pan-pride'
-import LGBTQIAPride from '../components/lgbtqia-pride'
-import LesbianPride from '../components/lesbian-pride'
-import get from 'lodash/get'
-import useWindowSize from '../hooks/use-window-size'
+import useFlags from '../hooks/use-flags'
 
 const cx = {
   main: 'relative',
@@ -13,38 +8,31 @@ const cx = {
   layer: 'absolute absolute--fill'
 }
 
-const FLAGS = [
-  TransPride,
-  PanPride,
-  LesbianPride,
-  LGBTQIAPride
-]
-
 const Index = () => {
-  const [flagIndex, setFlagIndex] = useState(0)
-  const { height } = useWindowSize()
-  const flagCount = get(FLAGS, 'length', 0)
-  const nextFlag = () => {
-    const nextIndex = flagIndex + 1
-    if (nextIndex < flagCount) {
-      setFlagIndex(nextIndex)
-    } else {
-      setFlagIndex(0)
-    }
-  }
-  const CurrentFlag = FLAGS[flagIndex]
-  const PreviousFlag = flagIndex === 0 ? FLAGS[flagCount - 1] : FLAGS[flagIndex - 1]
+  const {
+    currentFlag,
+    getNextFlag,
+    height,
+    previousFlag
+  } = useFlags()
+
   return (
     <Layout className={cx.main}>
       <div className={cx.container}>
         <div className={cx.layer}>
-          <PreviousFlag height={height} />
+          <Flag
+            key={previousFlag.join('')}
+            colors={previousFlag}
+            height={height}
+          />
         </div>
         <div className={cx.layer}>
-          <CurrentFlag
+          <Flag
             animate
+            key={currentFlag.join('')}
+            colors={currentFlag}
             height={height}
-            onFinish={nextFlag}
+            onFinish={getNextFlag}
           />
         </div>
       </div>
