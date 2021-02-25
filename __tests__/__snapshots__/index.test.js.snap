@@ -1,0 +1,311 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page - index should render 1`] = `
+<main
+  className="jsx-3812405479 sans-serif relative"
+>
+  <div
+    className="db"
+  >
+    <div
+      className="absolute absolute--fill"
+    >
+      <div>
+        <div
+          className="jsx-226047504 "
+          style={
+            Object {
+              "backgroundColor": "#000000",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-1108539953 "
+          style={
+            Object {
+              "backgroundColor": "#784f17",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-2154331730 "
+          style={
+            Object {
+              "backgroundColor": "#e40303",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-3036824179 "
+          style={
+            Object {
+              "backgroundColor": "#ff8c00",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-634815636 "
+          style={
+            Object {
+              "backgroundColor": "#ffed00",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-1517308085 "
+          style={
+            Object {
+              "backgroundColor": "#008026",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-2563099862 "
+          style={
+            Object {
+              "backgroundColor": "#004dff",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-3445592311 "
+          style={
+            Object {
+              "backgroundColor": "#750787",
+              "height": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="absolute absolute--fill"
+    >
+      <div>
+        <div
+          className="jsx-226047504 stripe"
+          style={
+            Object {
+              "backgroundColor": "#5bcefa",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-1108539953 stripe"
+          style={
+            Object {
+              "backgroundColor": "#f5a9b8",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-2154331730 stripe"
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-3036824179 stripe"
+          style={
+            Object {
+              "backgroundColor": "#f5a9b8",
+              "height": "0px",
+            }
+          }
+        />
+        <div
+          className="jsx-634815636 stripe"
+          style={
+            Object {
+              "backgroundColor": "#5bcefa",
+              "height": "0px",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="absolute absolute--fill"
+    >
+      <div
+        className="absolute absolute--fill"
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      >
+        <main
+          className="ma3 pa4 pv5-ns br3 bg shadow-4 f3 f2-ns fw3 absolute absolute--fill overflow-auto"
+        >
+          <div
+            className="mw5 mw6-ns db center"
+          >
+            <div
+              className="center br-100 center dib shadow-4 overflow-hidden grow"
+              style={
+                Object {
+                  "height": 128,
+                  "width": 128,
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "boxSizing": "border-box",
+                    "display": "inline-block",
+                    "margin": 0,
+                    "maxWidth": "100%",
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "maxWidth": "100%",
+                    }
+                  }
+                >
+                  <img
+                    alt=""
+                    aria-hidden={true}
+                    role="presentation"
+                    src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+                    style={
+                      Object {
+                        "border": "none",
+                        "display": "block",
+                        "margin": 0,
+                        "maxWidth": "100%",
+                        "padding": 0,
+                      }
+                    }
+                  />
+                </div>
+                <img
+                  alt="melanie"
+                  decoding="async"
+                  src="/_next/image?url=%2Fmelanie.jpg&w=256&q=75"
+                  srcSet="/_next/image?url=%2Fmelanie.jpg&w=128&q=75 1x, /_next/image?url=%2Fmelanie.jpg&w=256&q=75 2x"
+                  style={
+                    Object {
+                      "border": "none",
+                      "bottom": 0,
+                      "boxSizing": "border-box",
+                      "display": "block",
+                      "height": 0,
+                      "left": 0,
+                      "margin": "auto",
+                      "maxHeight": "100%",
+                      "maxWidth": "100%",
+                      "minHeight": "100%",
+                      "minWidth": "100%",
+                      "objectFit": undefined,
+                      "objectPosition": undefined,
+                      "padding": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                      "visibility": "inherit",
+                      "width": 0,
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <h2>
+              Hi! I’m 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #000000 0%, #000000 13%, #784f17 13%, #784f17 25%, #e40303 25%, #e40303 38%, #ff8c00 38%, #ff8c00 50%, #ffed00 50%, #ffed00 63%, #008026 63%, #008026 75%, #004dff 75%, #004dff 88%, #750787 88%, #750787 100%)",
+                  }
+                }
+              >
+                Melanie Kat
+              </span>
+            </h2>
+            <p>
+              My pronouns are 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #fe8cbf 0%, #fe8cbf 20%, #ffc6de 20%, #ffc6de 40%, #ffffff 40%, #ffffff 60%, #ffc6de 60%, #ffc6de 80%, #fe8cbf 80%, #fe8cbf 100%)",
+                  }
+                }
+              >
+                she/her
+              </span>
+            </p>
+            <p>
+              I am a 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #5bcefa 0%, #5bcefa 20%, #f5a9b8 20%, #f5a9b8 40%, #ffffff 40%, #ffffff 60%, #f5a9b8 60%, #f5a9b8 80%, #5bcefa 80%, #5bcefa 100%)",
+                  }
+                }
+              >
+                trans woman
+              </span>
+              , a 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #d52d00 0%, #d52d00 20%, #ff9a56 20%, #ff9a56 40%, #ffffff 40%, #ffffff 60%, #d362a4 60%, #d362a4 80%, #a30262 80%, #a30262 100%)",
+                  }
+                }
+              >
+                lesbian
+              </span>
+              , a 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #ff218c 0%, #ff218c 34%, #ffd800 34%, #ffd800 67%, #21b1ff 67%, #21b1ff 100%)",
+                  }
+                }
+              >
+                pansexual
+              </span>
+              , and I am 
+              <span
+                className="gradient ts1 fw6 nowrap"
+                style={
+                  Object {
+                    "backgroundImage": "linear-gradient(45deg, #fff430 0%, #fff430 25%, #ffffff 25%, #ffffff 50%, #9c59d1 50%, #9c59d1 75%, #000000 75%, #000000 100%)",
+                  }
+                }
+              >
+                non-binary
+              </span>
+            </p>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</main>
+`;
