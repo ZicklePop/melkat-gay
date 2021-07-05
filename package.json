@@ -10,7 +10,7 @@
     "build": "next build",
     "next": "next",
     "test": "jest",
-    "lint": "standard"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^11.0.1",
@@ -20,10 +20,11 @@
     "tachyons": "^4.12.0"
   },
   "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-next": "^11.0.1",
     "jest": "^27.0.6",
     "postcss": "^8.3.5",
-    "react-test-renderer": "^17.0.2",
-    "standard": "^16.0.3"
+    "react-test-renderer": "^17.0.2"
   },
   "resolutions": {
     "minimist": "^1.2.5",

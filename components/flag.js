@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
 import Stripe from './stripe'
 import map from 'lodash/map'
@@ -11,12 +11,12 @@ const Flag = ({ animate, colors, height, onFinish }) => {
   const finishes = useRef(0)
   const stripes = get(colors, 'length', 0)
 
-  const finish = () => {
+  const finish = useCallback(() => {
     finishes.current = finishes.current + 1
     if (finishes.current === stripes) {
       onFinish()
     }
-  }
+  }, [finishes, onFinish, stripes]);
 
   useEffect(() => {
     let el
@@ -30,7 +30,7 @@ const Flag = ({ animate, colors, height, onFinish }) => {
         el.removeEventListener('animationend', finish)
       }
     }
-  }, [])
+  }, [finish])
 
   return (
     <div ref={flagEl}>

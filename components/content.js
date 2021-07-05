@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import PropTypes from 'prop-types'
 import Gradient from './gradient'
+import melanie from '../public/melanie.jpg'
 
 const cx = {
   container: 'absolute absolute--fill',
@@ -20,10 +21,9 @@ const Content = ({ height }) => (
         >
           <Image
             alt='melanie'
-            height={128}
             loading='eager'
-            src='/melanie.jpg'
-            width={128}
+            src={melanie}
+            placeholder='blur'
           />
         </div>
         <h2>
