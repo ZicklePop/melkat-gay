@@ -21,9 +21,11 @@ const Content = ({ height }) => (
         >
           <Image
             alt='melanie'
+            height={128}
             loading='eager'
             src={melanie}
             placeholder='blur'
+            width={128}
           />
         </div>
         <h2>
